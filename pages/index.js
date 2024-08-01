@@ -1,10 +1,10 @@
+
 import React from 'react';
+import Head from 'next/head';
+import Slideshow from '../componenets/Slideshow';// Ensure this path is correct
 
-import Slideshow from '../componenets/Slideshow';
-
-import Document, { Html, Head, Main, NextScript } from 'next/document'
 const PageName = () => {
-    return (
+  return (
        
         
 <> <head>
@@ -24,7 +24,7 @@ const PageName = () => {
         {/* <!-- Title --> */}
         <title>Akcel - Crowdfunding & Charity HTML5 Template</title>
         {/* <!-- Favicon icon --> */}
-        <link rel="icon" type="image/png" href="../styles/images/pic2.png"/>
+        <link rel="icon" type="image/png" href="/images/pic2.png"/>
   
         <link rel="stylesheet" href="style.css"/>
           <link href="./output.css" rel="stylesheet"/>
@@ -45,7 +45,7 @@ const PageName = () => {
                             {/* <!-- Website Logo --> */}
                             {/* <!-- <div className="logo-header mostion logo-dark">
                                 <a href="index.html">
-                                    ../styles/images/logo-2.png" alt="">
+                                    /images/logo-2.png" alt="">
                                 </a>
                             </div> -->
                             <!-- Nav Toggle Button --> */}
@@ -62,7 +62,7 @@ const PageName = () => {
                                     <div className="flex">
                                       <div className="flex-shrink-0 flex items-center mx-4">
                                         <a href="index.html">
-                                          <img className="h-12 w-100%" src="../styles/images/logo-2.png" alt="Logo"/>
+                                          <img className="h-12 w-100%" src="/images/logo-2.png" alt="Logo"/>
                                         </a>
                                       </div>
                                       <div className="hidden sm:ml-6 sm:flex sm:space-x-8 mx-4">
@@ -98,7 +98,7 @@ const PageName = () => {
                 <div className="contact-box">
                     <div className="logo-contact logo-dark">
                         <a href="index.html">
-                            <img src="../styles/images/logo-2.png" alt=""/>
+                            <img src="/images/logo-2.png" alt=""/>
                         </a>
                     </div>
                     <div className="m-b50 contact-text">
@@ -164,7 +164,7 @@ const PageName = () => {
 
 
                             <div className="swiper-slide">
-                                <div className="banner-inner" style={{backgroundImage: "url('../styles/images/slider-bg1.jpg')"}}>
+                                <div className="banner-inner" style={{backgroundImage: "url('/images/slider-bg1.jpg')"}}>
                                     <div className="container-fluid">
                                         <div className="row">
                                             <div className="col-lg-6 col-md-12">
@@ -189,15 +189,15 @@ const PageName = () => {
                                                 <div className="banner-media row gx-4">
                                                     <div className="col-5">
                                                         <div className="main-img1">
-                                                            <img src="../styles/images/pic1.jpg" alt=""/>
+                                                            <img src="/images/pic1.jpg" alt=""/>
                                                         </div>
                                                         <div className="main-img2">
-                                                            <img src="../styles/images/pic2.jpg" alt=""/>
+                                                            <img src="/images/pic2.jpg" alt=""/>
                                                         </div>
                                                     </div>
                                                     <div className="col-7">
                                                         <div className="main-img3">
-                                                            <img src="../styles/images/pic3.jpg" alt=""/>
+                                                            <img src="/images/pic3.jpg" alt=""/>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -215,7 +215,7 @@ const PageName = () => {
                                 </div>
                             </div>
                             <div className="swiper-slide">
-                                <div className="banner-inner" style={{backgroundImage: "url('../styles/images/slider-bg2.jpg')"}}>
+                                <div className="banner-inner" style={{backgroundImage: "url('/images/slider-bg2.jpg')"}}>
                                     <div className="container-fluid">
                                         <div className="row">
                                             <div className="col-lg-6 col-md-12">
@@ -240,15 +240,15 @@ const PageName = () => {
                                                 <div className="banner-media row gx-4">
                                                     <div className="col-5">
                                                         <div className="main-img1">
-                                                            <img src="../styles/images/pic4.jpg" alt=""/>
+                                                            <img src="/images/pic4.jpg" alt=""/>
                                                         </div>
                                                         <div className="main-img2">
-                                                            <img src="../styles/images/pic5.jpg" alt=""/>
+                                                            <img src="/images/pic5.jpg" alt=""/>
                                                         </div>
                                                     </div>
                                                     <div className="col-7">
                                                         <div className="main-img3">
-                                                            <img src="../styles/images/pic6.jpg" alt=""/>
+                                                            <img src="/images/pic6.jpg" alt=""/>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -266,7 +266,7 @@ const PageName = () => {
                                 </div>
                             </div>
                             <div className="swiper-slide">
-                                <div className="banner-inner" style={{backgroundImage: "url('../styles/images/slider-bg3.jpg')"}}>
+                                <div className="banner-inner" style={{backgroundImage: "url('/images/slider-bg3.jpg')"}}>
                                     <div className="container-fluid">
                                         <div className="row">
                                             <div className="col-lg-6 col-md-12">
@@ -291,15 +291,15 @@ const PageName = () => {
                                                 <div className="banner-media row gx-4">
                                                     <div className="col-5">
                                                         <div className="main-img1">
-                                                            <img src="../styles/images/pic7.jpg" alt=""/>
+                                                            <img src="/images/pic7.jpg" alt=""/>
                                                         </div>
                                                         <div className="main-img2">
-                                                            <img src="../styles/images/pic8.jpg" alt=""/>
+                                                            <img src="/images/pic8.jpg" alt=""/>
                                                         </div>
                                                     </div>
                                                     <div className="col-7">
                                                         <div className="main-img3">
-                                                            <img src="../styles/images/pic9.jpg" alt=""/>
+                                                            <img src="/images/pic9.jpg" alt=""/>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -348,7 +348,7 @@ const PageName = () => {
                         <div className="row">
                            
                             <div className="col-xl-5 col-lg-6 m-b30 wow fadeInUp" data-wow-delay="200ms">
-                                <div className="donate-form form-wrapper bg-cover bg-center" style={{backgroundImage: "url('../styles/images/bg2.jpg')"}}>
+                                <div className="donate-form form-wrapper bg-cover bg-center" style={{backgroundImage: "url('/images/bg2.jpg')"}}>
                                     <div className="donate-info text-center">
                                         <h2 className="title mb-20">Donate Today</h2>
                                         <p className="text-white">Charity law within the UK varies among England and Wales, Scotland and Northern Ireland, but the fundamental principles are the same</p>
@@ -431,7 +431,7 @@ const PageName = () => {
                             </div>
                         </div>
                     </div>
-                    <img className="img-1" src="../styles/images/pic2.png"/>
+                    <img className="img-1" src="/images/pic2.png"/>
                 </section>
                 {/* <!-- Donate End-->
                 <!-- service --> */}
@@ -439,7 +439,7 @@ const PageName = () => {
                 <section className="clearfix">
                   
                     <div className="container mx-auto">
-                         <div className="bg-gray" style={{ backgroundImage: "url('../styles/images/bg10.png')", backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}>
+                         <div className="bg-gray" style={{ backgroundImage: "url('/images/bg10.png')", backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}>
                             <div className="container mx-auto py-16">
                                 <div className="text-center mb-10">
                                     <h5 className="text-lg font-semibold text-gray-800">Services</h5>
@@ -699,7 +699,7 @@ const PageName = () => {
                                 <a href="#" className="btn btn-primary bg-blue-500 text-white py-2 px-4 rounded">Start your fundraiser</a>
                             </div>
                         </div>
-                        <img src="../styles/images/pic1.png" className="img-1"/>
+                        <img src="/images/pic1.png" className="img-1"/>
                         <svg className="img-2" width="345" height="466" viewBox="0 0 345 466" fill="none" >
                             <path d="M262.501 40.6868L271.004 4.93595C271.493 2.87988 273.898 1.96049 275.634 3.16598L311.982 28.408C314.116 29.8902 313.485 33.2002 310.955 33.793L266.104 44.3019C263.933 44.8106 261.985 42.8565 262.501 40.6868Z" fill="var(--secondary)"/>
                             <path d="M260 20.0002C202.667 8.66685 91.4001 7.40018 105 93.0002C122 200 217 215 288 255C359 295 350 340 322 384C294 428 184 500 -28 442" stroke="var(--secondary)" stroke-width="3" stroke-dasharray="10 10"/>
@@ -711,7 +711,7 @@ const PageName = () => {
                 <!-- Online Courses --> */}
                 <section className="clearfix section-wrapper7">
                    
-                <div className="container mx-auto bg-gray-100 py-10" style={{   backgroundImage: "url('../styles/images/bg10.png')",   backgroundSize: 'cover',   backgroundRepeat: 'no-repeat',   backgroundPosition: 'center' }}>
+                <div className="container mx-auto bg-gray-100 py-10" style={{   backgroundImage: "url('/images/bg10.png')",   backgroundSize: 'cover',   backgroundRepeat: 'no-repeat',   backgroundPosition: 'center' }}>
                         <div className="text-center mb-10">
                             <h5 className="text-lg font-semibold text-gray-700">LATEST CAUSES</h5>
                             <h2 className="text-4xl font-bold text-gray-900">Trending Fundraisers</h2>
@@ -723,7 +723,7 @@ const PageName = () => {
                                 <div className="swiper-slide bg-white shadow-lg rounded-lg overflow-hidden transition-transform transform hover:scale-105">
                                     <div className="overflow-hidden">
                                         <a href="#">
-                                            <img className="w-full h-64 object-cover object-center" src="../styles/images/pic1.jpg" alt=""/>
+                                            <img className="w-full h-64 object-cover object-center" src="/images/pic1.jpg" alt=""/>
                                         </a>
                                     </div>
                                     <div className="p-6">
@@ -737,7 +737,7 @@ const PageName = () => {
                                         </h4>
                                         <ul className="flex items-center justify-between text-gray-600 text-sm mb-4">
                                             <li className="flex items-center">
-                                                {/* <!-- <img className="w-6 h-6 rounded-full mr-2" src="../styles/images/avatar1.jpg" alt=""> --> */}
+                                                {/* <!-- <img className="w-6 h-6 rounded-full mr-2" src="/images/avatar1.jpg" alt=""> --> */}
                                                 <span>Adam Jordon</span>
                                             </li>
                                             <li className="flex items-center">
@@ -765,7 +765,7 @@ const PageName = () => {
                                 <div className="swiper-slide bg-white shadow-lg rounded-lg overflow-hidden transition-transform transform hover:scale-105">
                                     <div className="overflow-hidden">
                                         <a href="#">
-                                            <img className="w-full h-64 object-cover object-center" src="../styles/images/pic2.jpg" alt=""/>
+                                            <img className="w-full h-64 object-cover object-center" src="/images/pic2.jpg" alt=""/>
                                         </a>
                                     </div>
                                     <div className="p-6">
@@ -779,7 +779,7 @@ const PageName = () => {
                                         </h4>
                                         <ul className="flex items-center justify-between text-gray-600 text-sm mb-4">
                                             <li className="flex items-center">
-                                                {/* <!-- <img className="w-6 h-6 rounded-full mr-2" src="../styles/images/avatar2.jpg" alt=""> --> */}
+                                                {/* <!-- <img className="w-6 h-6 rounded-full mr-2" src="/images/avatar2.jpg" alt=""> --> */}
                                                 <span>KK Sharma</span>
                                             </li>
                                             <li className="flex items-center">
@@ -809,7 +809,7 @@ const PageName = () => {
                                 <div className="swiper-slide2 bg-white shadow-lg rounded-lg overflow-hidden transition-transform transform hover:scale-105">
                                     <div className="overflow-hidden">
                                         <a href="#">
-                                            <img className="w-full h-64 object-cover object-center" src="../styles/images/pic4.jpg" alt=""/>
+                                            <img className="w-full h-64 object-cover object-center" src="/images/pic4.jpg" alt=""/>
                                         </a>
                                     </div>
                                     <div className="p-6">
@@ -824,7 +824,7 @@ const PageName = () => {
                                         <ul className="dz-meta flex items-center justify-between text-gray-600 text-sm mb-4">
                                             <li className="author-wrappper author-wrappper-sm mt-0 flex items-center">
                                                 <div className="author-media">
-                                                    <img src="../styles/images/avatar1.jpg" alt="" className="w-6 h-6 rounded-full mr-2"/>
+                                                    <img src="/images/avatar1.jpg" alt="" className="w-6 h-6 rounded-full mr-2"/>
                                                     <span>Adam Jordon</span>
                                                 </div>
                                             </li>
@@ -867,7 +867,7 @@ const PageName = () => {
                 
                 {/* <!-- Online Courses End -->
                 <!-- Testimonials --> */}
-                <section className="content-inner testimonial-wrapper2 bg-center bg-cover" style= {{backgroundImage: "url('../styles/images/bg10.jpg')"}}>
+                <section className="content-inner testimonial-wrapper2 bg-center bg-cover" style= {{backgroundImage: "url('/images/bg10.jpg')"}}>
                     <div className="container">
                         <div className="section-head text-center">
                             <h5 className="sub-title">What people are saying</h5>
@@ -883,7 +883,7 @@ const PageName = () => {
                             <div className="testimonial-slide">
                                 <div className="testimonial-2">
                                     <div className="testimonial-media">
-                                        <img src="../styles/images/pic4.jpg" alt="" className="rounded-full w-24 h-24"/>
+                                        <img src="/images/pic4.jpg" alt="" className="rounded-full w-24 h-24"/>
                                     </div>
                                     <div className="testimonial-content bg-white p-8 rounded-lg shadow-md">
                                         <h5 className="testimonial-title text-xl font-semibold mb-4">Heroes like you helped my son win his battle.</h5>
@@ -908,7 +908,7 @@ const PageName = () => {
                             <div className="testimonial-slide">
                                 <div className="testimonial-2">
                                     <div className="testimonial-media">
-                                        <img src="../styles/images/pic5.jpg" alt="" className="rounded-full w-24 h-24"/>
+                                        <img src="/images/pic5.jpg" alt="" className="rounded-full w-24 h-24"/>
                                     </div>
                                     <div className="testimonial-content bg-white p-8 rounded-lg shadow-md">
                                         <h5 className="testimonial-title text-xl font-semibold mb-4">Heroes like you helped my son win his battle.</h5>
@@ -933,7 +933,7 @@ const PageName = () => {
                             <div className="testimonial-slide">
                                 <div className="testimonial-2">
                                     <div className="testimonial-media">
-                                        <img src="../styles/images/pic6.jpg" alt="" className="rounded-full w-24 h-24"/>
+                                        <img src="/images/pic6.jpg" alt="" className="rounded-full w-24 h-24"/>
                                     </div>
                                     <div className="testimonial-content bg-white p-8 rounded-lg shadow-md">
                                         <h5 className="testimonial-title text-xl font-semibold mb-4">Heroes like you helped my son win his battle.</h5>
@@ -971,7 +971,7 @@ const PageName = () => {
                 <div className="content-inner-3 section-wrapper7 relative">
                     <div className="container relative">
                         <div className="map-wrapper relative">
-                            <img src="../styles/images/map.png" className="main-img" alt="Map Image"/>
+                            <img src="/images/map.png" className="main-img" alt="Map Image"/>
                             <ul className="absolute top-0 left-0">
                                 <li className="icon-dropdown" >
                                     <div className="right p-4" style={{top: '30%', left: '65%'}} >
@@ -1078,7 +1078,7 @@ const PageName = () => {
                                 <div className="dz-card style-6 blog-half wow fadeInUp" data-wow-delay="0.2s">
                                     <div className="dz-media">
                                         <a href="#">
-                                            <img src="../styles/images/pic1.jpg" alt="Blog Image" className="w-full h-auto object-cover"/>
+                                            <img src="/images/pic1.jpg" alt="Blog Image" className="w-full h-auto object-cover"/>
                                         </a>
                                         <ul className="dz-badge-list">
                                             <li>
@@ -1110,7 +1110,7 @@ const PageName = () => {
                                 <div className="dz-card style-6 blog-half wow fadeInUp" data-wow-delay="0.4s">
                                     <div className="dz-media">
                                         <a href="#">
-                                            <img src="../styles/images/pic2.jpg" alt="Blog Image" className="w-full h-auto object-cover"/>
+                                            <img src="/images/pic2.jpg" alt="Blog Image" className="w-full h-auto object-cover"/>
                                         </a>
                                         <ul className="dz-badge-list">
                                             <li>
@@ -1141,7 +1141,7 @@ const PageName = () => {
                             </div>
                             {/* <!-- Right column (col-xl-5 col-lg-12 m-b30) --> */}
                             <div className="col-span-12 m-b30 wow fadeInUp" data-wow-delay="0.6s">
-                                <div className="dz-card style-7 bg-cover" style={{backgroundImage: "url('../styles/images/pic1.jpg')"}}>
+                                <div className="dz-card style-7 bg-cover" style={{backgroundImage: "url('/images/pic1.jpg')"}}>
                                     <div className="dz-category">
                                         <ul className="dz-badge-list">
                                             <li>
@@ -1240,14 +1240,14 @@ const PageName = () => {
             </div>
             {/* <!-- Footer --> */}
             <footer className="site-footer style-2" id="footer">
-            <div className="footer-top footer-feature background-luminosity" style={{backgroundImage: "url('../styles/images/slider-bg1.jpg')"}}>
+            <div className="footer-top footer-feature background-luminosity" style={{backgroundImage: "url('/images/slider-bg1.jpg')"}}>
                     <div className="container">
                         <div className="row">
                             <div className="col-xl-4 col-lg-12 col-md-12 wow fadeInUp" data-wow-delay="0.2s">
                                 <div className="widget widget_about">
                                     <div className="footer-logo logo-white">
                                         <a href="index.html">
-                                            <img src="../styles/images/logo-white-2.png" alt=""/>
+                                            <img src="/images/logo-white-2.png" alt=""/>
                                         </a>
                                     </div>
                                     <p>Akcel is a Crowdfunding & Charity Website by DexignZone lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
