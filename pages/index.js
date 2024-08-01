@@ -14,15 +14,15 @@ const PageName = () => {
         <meta name="keywords" content=""/>
         <meta name="author" content="DexignZone"/>
         <meta name="robots" content=""/>
-        <meta name="description" content="Akcel Crowdfunding & Charity is a Responsive HTML Template that can be used to build Non-Profit, Charity Website. Template is well designed and well coded and flexible"/>
-        <meta property="og:title" content="Akcel - Crowdfunding & Charity HTML5 Template"/>
-        <meta property="og:description" content="Akcel Crowdfunding & Charity is a Responsive HTML Template that can be used to build Non-Profit, Charity Website. Template is well designed and well coded and flexible"/>
-        <meta property="og:image" content="https://akcel.dexignzone.com/xhtml/social-image.png"/>
+        <meta name="description" content="Akantika Crowdfunding & Charity is a Responsive HTML Template that can be used to build Non-Profit, Charity Website. Template is well designed and well coded and flexible"/>
+        <meta property="og:title" content="Akantika - Crowdfunding & Charity HTML5 Template"/>
+        <meta property="og:description" content="Akantika Crowdfunding & Charity is a Responsive HTML Template that can be used to build Non-Profit, Charity Website. Template is well designed and well coded and flexible"/>
+        <meta property="og:image" content="https://Akantika.dexignzone.com/xhtml/social-image.png"/>
         <meta name="format-detection" content="telephone=no"/>
         {/* <!-- Mobile Specific --> */}
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         {/* <!-- Title --> */}
-        <title>Akcel - Crowdfunding & Charity HTML5 Template</title>
+        <title>Akantika - Crowdfunding & Charity HTML5 Template</title>
         {/* <!-- Favicon icon --> */}
         <link rel="icon" type="image/png" href="/images/pic2.png"/>
   
@@ -443,7 +443,7 @@ const PageName = () => {
                             <div className="container mx-auto py-16">
                                 <div className="text-center mb-10">
                                     <h5 className="text-lg font-semibold text-gray-800">Services</h5>
-                                    <h2 className="text-3xl font-bold text-gray-900">Why Akcel</h2>
+                                    <h2 className="text-3xl font-bold text-gray-900">Why Akantika</h2>
                                 </div>
                                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
                                     {/* <!-- Column 1 --> */}
@@ -518,7 +518,7 @@ const PageName = () => {
                                             </a>
                                         </div>
                                         <div className="border-t border-dashed border-gray-300 my-4"></div>
-                                        <p className="text-gray-800">Akcel Get Expert Support 24/7</p>
+                                        <p className="text-gray-800">Akantika Get Expert Support 24/7</p>
                                     </div>
                                     
                                     {/* <!-- Column 5 --> */}
@@ -1250,7 +1250,7 @@ const PageName = () => {
                                             <img src="/images/logo-white-2.png" alt=""/>
                                         </a>
                                     </div>
-                                    <p>Akcel is a Crowdfunding & Charity Website by DexignZone lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
+                                    <p>Akantika is a Crowdfunding & Charity Website by DexignZone lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
                                     <div className="dz-social-icon style-3">
                                         <ul>
                                             <li>
@@ -1353,7 +1353,7 @@ const PageName = () => {
                 <div className="footer-bottom text-center"> */}
                     <div className="container">
                         <span className="copyright-text">
-                            Akcel Crowdfunding & Charity Website - © 2024 by <a href="#" target="_blank">DexignZone</a>
+                            Akantika Crowdfunding & Charity Website - © 2024 by <a href="#" target="_blank">DexignZone</a>
                         </span>
                     </div>
                 </div>
